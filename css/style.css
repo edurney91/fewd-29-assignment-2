@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Helvetica, Arial, sans-serif; 
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
@@ -67,18 +67,171 @@ body {
 
 }
 
-header {
-
-}
-
-footer {
-
-}
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+header {
+  color: #f0efef;
+  font-weight: 300; 
+  padding: 50px;
+  text-align: center;
+}
+
+h1{
+  color: #f0efef;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 50px 50px 100px;
+}
+
+h2{
+  color:#033048;
+  font-weight: 600px;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+h3{
+  font-weight: 800;
+  font-size: 24px;
+  padding: 10px 50px;
+  text-align: left;
+}
+
+button{
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+header button{
+  color:#033048;
+  background: #f9e42e;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+blockquote{
+  text-align: center;
+  color: #f0efef;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  background:  url(../images/testimonial_bg.jpg);
+}
+
+blockquote p{
+  padding: 150px 50px;
+}
+
+
+blockquote em{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+footer{
+  text-align: center;
+  background-color: #121212;
+}
 
 
 
+
+footer h3{
+  color:#f9e42e;
+  font-size:24px;
+  font-weight: 800;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+footer a img{
+  display: inline-block;
+  padding: 5px 10px;
+  border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    width: 30px;
+    height: 30px;
+}
+
+ 
+ footer p{
+  font-size: 9px;
+  font-weight: 600;
+  color:#f0efef;
+  padding: 20px;
+}
+
+/* CLASS STYLING STARTS HERE */
+
+.benefits{
+  background-color: #f0efef;
+  font-weight: 600;
+  font-size: 13px;
+  color: #606161;
+  padding: 50px;
+}
+
+.benefits p{
+  font-weight: 300;
+  color:#606161;
+  font-size: 13px;
+  padding: 0px 80px 20px 0px;
+}
+
+
+.benefits ul li{
+  list-style-type: disc;
+  list-style-position: inside;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 3px 80px;
+}
+
+
+
+.signup{
+  background-color: #f9e42e;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.signup button{
+  font-size: 12px;
+  font-weight: 800;
+  color: #f0efef;
+  background: #033048;
+  border-radius: 5px;
+  padding: 10px 40px;
+
+}
+
+
+
+/**line-height: **/
+
+/** class styling then id styling **/
+/*div+div = any div that comes after a div is...eg. red*/
+/*div:nth-child(2) = apply to the second div*/
+/*div.special = div that has a class of special*/
+/*div#theBest = apply to */
+/*light 300, reg 400, 600 semi, 800 extra bold */
+/*add width % eg. header and footer should be 100% vs two columns 50%*/
